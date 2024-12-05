@@ -12,7 +12,7 @@
     "Frontend": {
       "EmberJs": {
         "EmberApp": true,
-        "EmberAddon": false,
+        "EmberAddon": true,
         "Build": false,
         "GitClone": false,
         "GitPush": false,
@@ -36,15 +36,15 @@
     },
     "Storage": {
       "Mssql": {
-        "DiffSql": false,
+        "DiffSql": true,
         "FullSql": true,
-        "Security": false,
-        "AdminUser": false,
+        "Security": true,
+        "AdminUser": true,
         "ConnectionString": null
       },
       "PostgreSql": {
         "DiffSql": false,
-        "FullSql": true,
+        "FullSql": false,
         "Security": false,
         "AdminUser": false,
         "ConnectionString": null
@@ -56,7 +56,7 @@
       },
       "Oracle": {
         "DiffSql": false,
-        "FullSql": true,
+        "FullSql": false,
         "ConnectionString": null
       },
       "Access": {
